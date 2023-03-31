@@ -18,7 +18,7 @@ const app = Vue.createApp({
 
             
             this.firstName= results[0].name.first
-            this.lastName=results[0].name.first
+            this.lastName=results[0].name.last
             this.email=results[0].email
             this.location=results[0].location.country
             this.phone=results[0].phone
